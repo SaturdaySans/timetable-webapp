@@ -11,9 +11,20 @@ function csvToArray(csvText) {
 
 //Load the csvfile
 async function loadTimetable() {
-  const response = await fetch("/timetable.csv");
-  const csvText = await response.text();
-  return csvToArray(csvText);
+  try {
+    const response = await fetch("/timetable.csv");
+
+    if (!response.ok) {
+      throw new Error("CSV failed to load");
+    }
+
+    const csvText = await response.text();
+    return csvToArray(csvText);
+  } catch (err) {
+    document.getElementById("current-period").innerText =
+      "Error loading timetable";
+    console.error(err);
+  }
 }
 
 //Find current-period
