@@ -11,7 +11,7 @@ function csvToArray(csvText) {
 
 //Load the csvfile
 async function loadTimetable() {
-  const response = await fetch("timetable.csv");
+  const response = await fetch("https://portfolio.saturday-s.com/externalassets/timetable.csv");
   const csvText = await response.text();
   return csvToArray(csvText);
 }
