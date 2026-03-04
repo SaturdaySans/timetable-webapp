@@ -5,9 +5,9 @@ monday,09:30,10:00,PMT,Homeroom,Class
 monday,10:00,11:30,Mother_Tongue,LLab2,Class
 monday,11:30,12:30,PW,Unknown,Unknown
 monday,12:30,13:00,Break,,Break
-monday,13:00,14:00,"Econs(H2)",LLab1,Class
+monday,13:00,14:00,Econs,LLab1,Class
 monday,14:00,16:00,Computing,LLab1,Class
-tuesday,09:00,10:30,"Econs(H2)",LLab1,Class
+tuesday,09:00,10:30,Econs,LLab1,Class
 tuesday,10:30,11:30,Break,,Break
 tuesday,11:30,12:30,Physics,LLab1,Class
 tuesday,12:30,13:30,Physics,LT5,Lecture
@@ -16,7 +16,7 @@ tuesday,14:00,15:30,Math,LLab1,Class
 tuesday,15:30,16:30,GP,LLab1,Class
 wednesday,08:00,09:30,Physics,PH34,Practical
 wednesday,09:30,10:00,Break,,Break
-wednesday,10:00,11:30,"Econs(H2)",LT1,Lecture
+wednesday,10:00,11:30,Econs,LT1,Lecture
 wednesday,11:30,12:30,Mother_Tongue,LLab2,Class
 wednesday,12:30,13:30,PW,Homeroom,Class
 wednesday,13:30,14:30,Break,,Break
