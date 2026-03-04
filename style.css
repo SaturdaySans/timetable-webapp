@@ -1,11 +1,21 @@
+body { 
+        font-family: Arial; text-align: center; margin-top: 50px; 
+    }.period { 
+        font-size: 24px; margin: 10px; 
+    }
+
 body {
   padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
-.dark-mode {
   background-color: #2b2a33;
   color: white;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin: 10px;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }
