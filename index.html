@@ -14,27 +14,17 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
--    <h1>Current Period</h1>
--    <div id="current-period" class="period" aria-live="polite">Loading</div>
--
--    <!-- do we think ts will work -->
--    <h2>Next Period</h2>
--    <div id="next-period" class="period" aria-live="polite">Loading</div>
-+    <div class="periods">
-+      <div class="period-card">
-+        <h1>Current Period</h1>
-+        <div id="current-period" class="period" aria-live="polite">Loading</div>
-+      </div>
-+      <div class="period-card">
-+        <h1>Next Period</h1>
-+        <div id="next-period" class="period" aria-live="polite">Loading</div>
-+      </div>
-+    </div>
- 
-     <button id="theme-toggle" onclick="myFunction()" aria-pressed="false">Toggle Dark Mode</button>
- 
-     <script src="javascript.js"></script>
- 
-     <img src="assets/timetable.png" alt="Full Timetable" />
- </body>
+    <h1>Current Period</h1>
+    <div id="current-period" class="period" aria-live="polite">Loading</div>
+
+    <!-- do we think toggle will work -->
+    <h2>Next Period</h2>
+    <div id="next-period" class="period" aria-live="polite">Loading</div>
+
+    <button id="theme-toggle" onclick="myFunction()" aria-pressed="false">Toggle Dark Mode</button>
+
+    <script src="javascript.js"></script>
+
+    <img src="assets/timetable.png" alt="Full Timetable" />
+</body>
 </html>
