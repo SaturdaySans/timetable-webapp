@@ -1,7 +1,7 @@
 body {
   padding: 25px;
-  background-color: #2b2a33; 
-  color: #ffffff;
+  background-color: white; 
+  color: black;
   font-size: 24px;
   margin: 10px;
   font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
   transition: background-color 150ms ease, color 150ms ease;
 }
 
-.light-mode {
-  background-color: white;
-  color: #2b2a33;
+.dark-mode {
+  background-color: #2b2a33;
+  color: white;
 }
